@@ -19,8 +19,7 @@ CRONTIME=Cron参数，默认是30 9 * * *，既每天早上9:30执行
 ```
 Sourcepath=项目源，默认是https://github.com.cnpmjs.org/TechXueXi/TechXueXi.git
 ```
-```
-pullbranche=项目分支，默认是dev，后续可能会变为master
+https://hub.docker.com/r/techxuexi/techxuexi docker项目地址
 eg:docker run -e "AccessToken=xxx"  -e "Pushmode=4" -d --name=xuexi techxuexi/techxuexi:amd64-44
 ##### 钉钉机器人接入方式请参考 https://developers.dingtalk.com/document/app/custom-robot-access/title-72m-8ag-pqw
 ##### Server酱接入参考 https://sct.ftqq.com/
